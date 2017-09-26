@@ -1,0 +1,83 @@
+body {
+  font: 12px sans-serif;
+  position: relative;
+}
+
+svg {
+    margin: auto;
+    display: block;
+    background: white;
+    border: 0.5px solid grey;
+}
+
+#centerdiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #eeeeee;
+  padding: 20px;
+}
+
+.site {
+  stroke: steelblue;
+  stroke-width: 2px;
+  fill: steelblue;
+  r: 2px;
+}
+
+.polygon {
+    fill: white;
+    stroke: black;
+}
+
+.voronoi_edge {
+    stroke: steelblue;
+    stroke-width: 3px;
+    /*stroke-linecap: round;*/
+}
+
+.selected_voronoi_edge {
+    stroke: yellow;
+    stroke-width: 5px;
+    /*stroke-linecap: round;*/
+}
+
+.observer {
+  stroke: black;
+  stroke-width: 3px;
+  fill: red;
+  r: 6px;
+}
+
+.portal {
+    stroke: rgba(255, 255, 255, 0.65);
+    stroke-width: 6px;
+    stroke-linecap: round;
+}
+
+.portal_candidate {
+    stroke: red;
+    stroke-width: 5px;
+    stroke-linecap: round;
+}
+
+.selected_portal {
+    stroke: blue;
+    stroke-width: 6px;
+    stroke-linecap: round;
+}
+
+.visible_cell {
+    fill: rgba(80, 159, 41, 0.1);
+}
+
+.visible_polygon {
+    fill: rgba(40, 102, 188, 0.4);
+}
+
+
+.test {
+  stroke: black;
+  stroke-width: 2px;
+  fill: red;
+}
